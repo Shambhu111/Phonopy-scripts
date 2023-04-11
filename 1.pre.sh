@@ -1,5 +1,5 @@
 #!/bin/bash
-phonopy -d --dim="4 4 1"
+phonopy -d --dim="4 4 1" # edit this according to your system
 
 for file in POSCAR-*; do
   disp=$(echo "$file" | sed 's/POSCAR-\(.*\)/\1/')
